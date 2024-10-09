@@ -68,13 +68,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
+          
   <div class="w3-content">
     <!-- <div class="w3-twothird"> -->
-     <h5>It seems to me that there have been many conjectures or open problems in the field of modular forms, but it is often hard for young researches like myself to get to know about them. I have thus compiled this list, which is only restricted to open problems regarding the coefficients of modular forms, in hopes of spreading them to other young researchers in this field. Please feel free to let me know if you spot any mistakes, want to add more to the list, or are aware of existing solutions to any of them.</h5>
+     <h5>It seems that there have been many conjectures or open problems in the field of modular forms, but it is often hard for young researches like myself to get to know about them. I have thus compiled this list, which is only restricted to open problems regarding the coefficients of modular forms, in hopes of spreading them to other young researchers in this field. Please feel free to let me know if you spot any mistakes, want to add more to the list, or are aware of existing solutions to any of them.</h5>
 
-    <button class="collapsible">Maeda's conjecture (1997) </button>
-<div class="content">
-  <p>Maeda's conjecture first appeared as Conjecture 1.2 in <a href="https://msp.org/pjm/1997/181-3/p09.xhtml">a paper by Hida--Maeda</a>. The strongest version of Maeda's conjecture is nowadays usually formulated as the following.</p>
+  <button class="collapsible">Maeda's conjecture (1997) </button>
+  <div class="content">
+  <p>Maeda's conjecture first appeared as Conjecture 1.2 in <a href="https://msp.org/pjm/1997/181-3/p09.xhtml">a paper by Hida and Maeda</a>. The conjecture in its stronger version is nowadays usually formulated as the following.</p>
   <p class="w3-padding-15">
   <b>Conjecture 1.</b> For all positive integers \(n\) and all weights \(k\) such that \(S_k(1)\) is nonempty, 
   <ul>
@@ -82,7 +83,23 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <li>the Galois group of the splitting field of \(\phi_p\) over \(\mathbb{Q}\) is the symmetric group \(S_d\), where \(d\) is the dimension of \(S_k(1)\).</li>
   </ul>
   </p>
-</div>
+  <p class="w3-padding-15">
+  A weaker version of the Conjecture is the following, which follows from the stronger version.
+  </p>
+  <p class="w3-padding-15">
+  <b>Conjecture 2.</b> For all weights \(k\), the Galois action on the set of Hecke eigenforms in \(S_k(1)\) has a single orbit.
+  </p>
+  <p class="w3-padding-15">
+  There have been proposed generalizations of this conjecture to the case of higher level. See e.g. <a href="https://link.springer.com/chapter/10.1007/978-3-319-03847-6_12">the paper by Tsaknias</a>. In particular, the paper makes the following conjecture for squarefree level (Conjecture 2.4 in the paper).
+  </p>
+  <p class="w3-padding-15">
+  <b>Conjecture 3.</b> Let \(N\) be a product of \(s\) distinct prime numbers. For \(k\) sufficiently, the Galois action on the set of newforms in \(S^\mathrm{new}_k(\Gamma_0(N))\) has exactly \(2^s\) orbits.
+  </p>
+  <p class="w3-padding-15">
+  If we write \(N=p_1p_2\cdots p_s\), then the space \(S^\mathrm{new}_k(\Gamma_0(N))\) decomposes into a direct sum of \(2^s\) Galois stable subspaces according to the Artin&ndash;Lehner sign at each \(p_i\), so this conjecture is essentially saying that the Galois action on the set of newforms in each of these subspaces has a single orbit when the weight is sufficiently large.
+  </p>
+  </div>
+
     </div>
   </div>
 </div>
